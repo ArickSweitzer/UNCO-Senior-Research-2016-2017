@@ -1,0 +1,834 @@
+void LEG1_A1(){
+  Serial.println("#0 P1993 T160");
+}
+void LEG1_A2(){
+  Serial.println("#0 P1893 T160");
+}
+void LEG1_A3(){
+  Serial.println("#0 P1783 T160");
+}
+void LEG1_A4(){
+  Serial.println("#0 P1643 T160");
+}
+void LEG1_A5(){
+  Serial.println("#0 P1523 T160");
+}
+void LEG1_A6(){
+  Serial.println("#0 P1413 T160");
+}
+void LEG1_A7(){
+  Serial.println("#0 P1313 T160");
+}
+void LEG1_A8(){
+  Serial.println("#0 P1223 T160");
+}
+void LEG1_AA1(){
+  Serial.println("#0 P1643 T160");
+}
+
+
+
+
+
+void LEG1_B1(){
+  Serial.println("#1 P1166 T160");
+}
+void LEG1_B2(){
+  Serial.println("#1 P1256 T160");
+}
+void LEG1_B3(){
+  Serial.println("#1 P1286 T160");
+}
+void LEG1_B4(){
+  Serial.println("#1 P1266 T160");
+}
+void LEG1_B5(){
+  Serial.println("#1 P1331 T160");
+}
+void LEG1_B6(){
+  Serial.println("#1 P1331 T160");
+}
+void LEG1_B7(){
+  Serial.println("#1 P1331 T160");
+}
+void LEG1_B8(){
+  Serial.println("#1 P1321 T160");
+}
+void LEG1_BA1(){
+  Serial.println("#1 P2088 T160");
+}
+
+
+
+
+
+void LEG1_C1(){
+  Serial.println("#2 P945 T160");
+}
+void LEG1_C2(){
+  Serial.println("#2 P1085 T160");
+}
+void LEG1_C3(){
+  Serial.println("#2 P1145 T160");
+}
+void LEG1_C4(){
+  Serial.println("#2 P1205 T160");
+}
+void LEG1_C5(){
+  Serial.println("#2 P1245 T160");
+}
+void LEG1_C6(){
+  Serial.println("#2 P1245 T160");
+}
+void LEG1_C7(){
+  Serial.println("#2 P1245 T160");
+}
+void LEG1_C8(){
+  Serial.println("#2 P1205 T160");
+}
+void LEG1_CA1(){
+  Serial.println("#2 P1905 T160");
+}
+void LEG1_CS1(){
+  Serial.println("#2 P1005 T160");
+}
+
+
+
+////////////////////////////////////////////
+
+
+
+void LEG3_A1(){
+  Serial.println("#4 P1770 T160");
+}
+void LEG3_A2(){
+  Serial.println("#4 P1670 T160");
+}
+void LEG3_A3(){
+  Serial.println("#4 P1540 T160");
+}
+void LEG3_A4(){
+  Serial.println("#4 P1450 T160");
+}
+void LEG3_A5(){
+  Serial.println("#4 P1360 T160");
+}
+void LEG3_A6(){
+  Serial.println("#4 P1260 T160");
+}
+void LEG3_A7(){
+  Serial.println("#4 P1170 T160");
+}
+void LEG3_A8(){
+  Serial.println("#4 P1090 T160");
+}
+void LEG3_AA1(){
+  Serial.println("#4 P1450 T160");
+}
+
+
+
+
+
+void LEG3_B1(){
+  Serial.println("#5 P1010 T160");
+}
+void LEG3_B2(){
+  Serial.println("#5 P1010 T160");
+}
+void LEG3_B3(){
+  Serial.println("#5 P1010 T160");
+}
+void LEG3_B4(){
+  Serial.println("#5 P1000 T160");
+}
+void LEG3_B5(){
+  Serial.println("#5 P1010 T160");
+}
+void LEG3_B6(){
+  Serial.println("#5 P1020 T160");
+}
+void LEG3_B7(){
+  Serial.println("#5 P980 T160");
+}
+void LEG3_B8(){
+  Serial.println("#5 P1030 T160");
+}
+void LEG3_BA1(){
+  Serial.println("#5 P1857 T160");
+}
+
+
+
+
+void LEG3_C1(){
+  Serial.println("#6 P1290 T160");
+}
+void LEG3_C2(){
+  Serial.println("#6 P1280 T160");
+}
+void LEG3_C3(){
+  Serial.println("#6 P1290 T160");
+}
+void LEG3_C4(){
+  Serial.println("#6 P1290 T160");
+}
+void LEG3_C5(){
+  Serial.println("#6 P1240 T160");
+}
+void LEG3_C6(){
+  Serial.println("#6 P1240 T160");
+}
+void LEG3_C7(){
+  Serial.println("#6 P1200 T160");
+}
+void LEG3_C8(){
+  Serial.println("#6 P1200 T160");
+}
+void LEG3_CA1(){
+  Serial.println("#6 P1560 T160");
+}
+void LEG3_CS1(){
+  Serial.println("#6 P743 T160");
+}
+
+
+
+/////////////////////////////////////
+
+
+
+
+
+void LEG5_A1(){
+  Serial.println("#16 P1450 T160");
+}
+void LEG5_A2(){
+  Serial.println("#16 P1390 T160");
+}
+void LEG5_A3(){
+  Serial.println("#16 P1290 T160");
+}
+void LEG5_A4(){
+  Serial.println("#16 P1140 T160");
+}
+void LEG5_A5(){
+  Serial.println("#16 P1100 T160");
+}
+void LEG5_A6(){
+  Serial.println("#16 P1030 T160");
+}
+void LEG5_A7(){
+  Serial.println("#16 P990 T160");
+}
+void LEG5_A8(){
+  Serial.println("#16 P940 T160");
+}
+void LEG5_AA1(){
+  Serial.println("#16 P1140 T160");
+}
+
+
+
+
+
+void LEG5_B1(){
+  Serial.println("#17 P1113 T160");
+}
+void LEG5_B2(){
+  Serial.println("#17 P1113 T160");
+}
+void LEG5_B3(){
+  Serial.println("#17 P1113 T160");
+}
+void LEG5_B4(){
+  Serial.println("#17 P1113 T160");
+}
+void LEG5_B5(){
+  Serial.println("#17 P1173 T160");
+}
+void LEG5_B6(){
+  Serial.println("#17 P1143 T160");
+}
+void LEG5_B7(){
+  Serial.println("#17 P1133 T160");
+}
+void LEG5_B8(){
+  Serial.println("#17 P1133 T160");
+}
+void LEG5_BA1(){
+  Serial.println("#17 P2033 T160");
+}
+
+
+
+
+void LEG5_C1(){
+  Serial.println("#18 P1460 T160");
+}
+void LEG5_C2(){
+  Serial.println("#18 P1420 T160");
+}
+void LEG5_C3(){
+  Serial.println("#18 P1420 T160");
+}
+void LEG5_C4(){
+  Serial.println("#18 P1450 T160");
+}
+void LEG5_C5(){
+  Serial.println("#18 P1450 T160");
+}
+void LEG5_C6(){
+  Serial.println("#18 P1400 T160");
+}
+void LEG5_C7(){
+  Serial.println("#18 P1320 T160");
+}
+void LEG5_C8(){
+  Serial.println("#18 P1320 T160");
+}
+void LEG5_CA1(){
+  Serial.println("#18 P2253 T160");
+}
+void LEG5_CS1(){
+  Serial.println("#18 P1353 T160");
+}
+
+
+
+///////////////////////////////////////
+
+
+void LEG7_A1(){
+  Serial.println("#20 P1316 T160");
+}
+void LEG7_A2(){
+  Serial.println("#20 P1276 T160");
+}
+void LEG7_A3(){
+  Serial.println("#20 P1156 T160");
+}
+void LEG7_A4(){
+  Serial.println("#20 P1036 T160");
+}
+void LEG7_A5(){
+  Serial.println("#20 P996 T160");
+}
+void LEG7_A6(){
+  Serial.println("#20 P946 T160");
+}
+void LEG7_A7(){
+  Serial.println("#20 P946 T160");
+}
+void LEG7_A8(){
+  Serial.println("#20 P946 T160");
+}
+void LEG7_AA1(){
+  Serial.println("#20 P1036 T160");
+}
+
+
+
+
+
+void LEG7_B1(){
+  Serial.println("#21 P1690 T160");
+}
+void LEG7_B2(){
+  Serial.println("#21 P1690 T160");
+}
+void LEG7_B3(){
+  Serial.println("#21 P1690 T160");
+}
+void LEG7_B4(){
+  Serial.println("#21 P1690 T160");
+}
+void LEG7_B5(){
+  Serial.println("#21 P1756 T160");
+}
+void LEG7_B6(){
+  Serial.println("#21 P1736 T160");
+}
+void LEG7_B7(){
+  Serial.println("#21 P1736 T160");
+}
+void LEG7_B8(){
+  Serial.println("#21 P1736 T160");
+}
+void LEG7_BA1(){
+  Serial.println("#21 P2500 T160");
+}
+
+
+
+
+void LEG7_C1(){
+  Serial.println("#22 P1220 T160");
+}
+void LEG7_C2(){
+  Serial.println("#22 P1220 T160");
+}
+void LEG7_C3(){
+  Serial.println("#22 P1170 T160");
+}
+void LEG7_C4(){
+  Serial.println("#22 P1170 T160");
+}
+void LEG7_C5(){
+  Serial.println("#22 P1100 T160");
+}
+void LEG7_C6(){
+  Serial.println("#22 P1050 T160");
+}
+void LEG7_C7(){
+  Serial.println("#22 P1050 T160");
+}
+void LEG7_C8(){
+  Serial.println("#22 P1050 T160");
+}
+void LEG7_CA1(){
+  Serial.println("#22 P2017 T160");
+}
+void LEG7_CS1(){
+  Serial.println("#22 P983 T160");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void LEG2_A1(){
+  Serial.println("#15 P926 T160");
+}
+void LEG2_A2(){
+  Serial.println("#15 P1086 T160");
+}
+void LEG2_A3(){
+  Serial.println("#15 P1206 T160");
+}
+void LEG2_A4(){
+  Serial.println("#15 P1406 T160");
+}
+void LEG2_A5(){
+  Serial.println("#15 P1526 T160");
+}
+void LEG2_A6(){
+  Serial.println("#15 P1646 T160");
+}
+void LEG2_A7(){
+  Serial.println("#15 P1756 T160");
+}
+void LEG2_A8(){
+  Serial.println("#15 P1836 T160");
+}
+void LEG2_AA1(){
+  Serial.println("#15 P1416 T160");
+}
+
+
+
+
+
+void LEG2_B1(){
+  Serial.println("#14 P1900 T160");
+}
+void LEG2_B2(){
+  Serial.println("#14 P1830 T160");
+}
+void LEG2_B3(){
+  Serial.println("#14 P1800 T160");
+}
+void LEG2_B4(){
+  Serial.println("#14 P1880 T160");
+}
+void LEG2_B5(){
+  Serial.println("#14 P1830 T160");
+}
+void LEG2_B6(){
+  Serial.println("#14 P1810 T160");
+}
+void LEG2_B7(){
+  Serial.println("#14 P1810 T160");
+}
+void LEG2_B8(){
+  Serial.println("#14 P1810 T160");
+}
+void LEG2_BA1(){
+  Serial.println("#14 P910 T160");
+}
+
+
+
+
+void LEG2_C1(){
+  Serial.println("#13 P2100 T160");
+}
+void LEG2_C2(){
+  Serial.println("#13 P1960 T160");
+}
+void LEG2_C3(){
+  Serial.println("#13 P1870 T160");
+}
+void LEG2_C4(){
+  Serial.println("#13 P1900 T160");
+}
+void LEG2_C5(){
+  Serial.println("#13 P1870 T160");
+}
+void LEG2_C6(){
+  Serial.println("#13 P1850 T160");
+}
+void LEG2_C7(){
+  Serial.println("#13 P1850 T160");
+}
+void LEG2_C8(){
+  Serial.println("#13 P1860 T160");
+}
+void LEG2_CA1(){
+  Serial.println("#13 P1850 T160");
+}
+
+void LEG2_CS1(){
+  Serial.println("#13 P1983 T160");
+}
+
+
+
+
+
+
+/////////////////////////////////////
+
+
+void LEG4_A1(){
+  Serial.println("#11 P1123 T160");
+}
+void LEG4_A2(){
+  Serial.println("#11 P1263 T160");
+}
+void LEG4_A3(){
+  Serial.println("#11 P1383 T160");
+}
+void LEG4_A4(){
+  Serial.println("#11 P1443 T160");
+}
+void LEG4_A5(){
+  Serial.println("#11 P1553 T160");
+}
+void LEG4_A6(){
+  Serial.println("#11 P1633 T160");
+}
+void LEG4_A7(){
+  Serial.println("#11 P1693 T160");
+}
+void LEG4_A8(){
+  Serial.println("#11 P1723 T160");
+}
+void LEG4_AA1(){
+  Serial.println("#11 P1443 T160");
+}
+
+
+
+
+
+void LEG4_B1(){
+  Serial.println("#10 P1976 T160");
+}
+void LEG4_B2(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B3(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B4(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B5(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B6(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B7(){
+  Serial.println("#10 P1979 T160");
+}
+void LEG4_B8(){
+  Serial.println("#10 P2019 T160");
+}
+void LEG4_BA1(){
+  Serial.println("#10 P1052 T160");
+}
+
+
+
+
+void LEG4_C1(){
+  Serial.println("#9 P1900 T160");
+}
+void LEG4_C2(){
+  Serial.println("#9 P1860 T160");
+}
+void LEG4_C3(){
+  Serial.println("#9 P1860 T160");
+}
+void LEG4_C4(){
+  Serial.println("#9 P1860 T160");
+}
+void LEG4_C5(){
+  Serial.println("#9 P1860 T160");
+}
+void LEG4_C6(){
+  Serial.println("#9 P1860 T160");
+}
+void LEG4_C7(){
+  Serial.println("#9 P1920 T160");
+}
+void LEG4_C8(){
+  Serial.println("#9 P1940 T160");
+}
+void LEG4_CA1(){
+  Serial.println("#9 P1007 T160");
+}
+void LEG4_CS1(){
+  Serial.println("#9 P1907 T160");
+}
+
+
+////////////////////////////////////////////////////
+
+
+
+
+
+void LEG6_A1(){
+  Serial.println("#31 P1400 T160");
+}
+void LEG6_A2(){
+  Serial.println("#31 P1490 T160");
+}
+void LEG6_A3(){
+  Serial.println("#31 P1570 T160");
+}
+void LEG6_A4(){
+  Serial.println("#31 P1630 T160");
+}
+void LEG6_A5(){
+  Serial.println("#31 P1670 T160");
+}
+void LEG6_A6(){
+  Serial.println("#31 P1740 T160");
+}
+void LEG6_A7(){
+  Serial.println("#31 P1800 T160");
+}
+void LEG6_A8(){
+  Serial.println("#31 P1880 T160");
+}
+void LEG6_AA1(){
+  Serial.println("#31 P1630 T160");
+}
+
+
+
+
+
+void LEG6_B1(){
+  Serial.println("#30 P1695 T160");
+}
+void LEG6_B2(){
+  Serial.println("#30 P1715 T160");
+}
+void LEG6_B3(){
+  Serial.println("#30 P1715 T160");
+}
+void LEG6_B4(){
+  Serial.println("#30 P1715 T160");
+}
+void LEG6_B5(){
+  Serial.println("#30 P1765 T160");
+}
+void LEG6_B6(){
+  Serial.println("#30 P1805 T160");
+}
+void LEG6_B7(){
+  Serial.println("#30 P1865 T160");
+}
+void LEG6_B8(){
+  Serial.println("#30 P1865 T160");
+}
+void LEG6_BA1(){
+  Serial.println("#30 P898 T160");
+}
+
+
+
+
+void LEG6_C1(){
+  Serial.println("#29 P1683 T160");
+}
+void LEG6_C2(){
+  Serial.println("#29 P1693 T160");
+}
+void LEG6_C3(){
+  Serial.println("#29 P1693 T160");
+}
+void LEG6_C4(){
+  Serial.println("#29 P1723 T160");
+}
+void LEG6_C5(){
+  Serial.println("#29 P1743 T160");
+}
+void LEG6_C6(){
+  Serial.println("#29 P1743 T160");
+}
+void LEG6_C7(){
+  Serial.println("#29 P1743 T160");
+}
+void LEG6_C8(){
+  Serial.println("#29 P1743 T160");
+}
+void LEG6_CA1(){
+  Serial.println("#29 P1176 T160");
+}
+void LEG6_CS1(){
+  Serial.println("#29 P2410 T160");
+}
+////////////////////////////////////////////
+
+
+
+
+void LEG8_A1(){
+  Serial.println("#27 P1541 T160");
+}
+void LEG8_A2(){
+  Serial.println("#27 P1601 T160");
+}
+void LEG8_A3(){
+  Serial.println("#27 P1711 T160");
+}
+void LEG8_A4(){
+  Serial.println("#27 P1921 T160");
+}
+void LEG8_A5(){
+  Serial.println("#27 P1971 T160");
+}
+void LEG8_A6(){
+  Serial.println("#27 P2011 T160");
+}
+void LEG8_A7(){
+  Serial.println("#27 P2011 T160");
+}
+void LEG8_A8(){
+  Serial.println("#27 P2011 T160");
+}
+void LEG8_AA1(){
+  Serial.println("#27 P1921 T160");
+}
+
+
+
+
+
+void LEG8_B1(){
+  Serial.println("#26 P1296 T160");
+}
+void LEG8_B2(){
+  Serial.println("#26 P1296 T160");
+}
+void LEG8_B3(){
+  Serial.println("#26 P1366 T160");
+}
+void LEG8_B4(){
+  Serial.println("#26 P1406 T160");
+}
+void LEG8_B5(){
+  Serial.println("#26 P1436 T160");
+}
+void LEG8_B6(){
+  Serial.println("#26 P1436 T160");
+}
+void LEG8_B7(){
+  Serial.println("#26 P1436 T160");
+}
+void LEG8_B8(){
+  Serial.println("#26 P1436 T160");
+}
+void LEG8_BA1(){
+  Serial.println("#26 P500 T160");
+}
+
+
+
+
+void LEG8_C1(){
+  Serial.println("#25 P1786 T160");
+}
+void LEG8_C2(){
+  Serial.println("#25 P1786 T160");
+}
+void LEG8_C3(){
+  Serial.println("#25 P1766 T160");
+}
+void LEG8_C4(){
+  Serial.println("#25 P1896 T160");
+}
+void LEG8_C5(){
+  Serial.println("#25 P1976 T160");
+}
+void LEG8_C6(){
+  Serial.println("#25 P2066 T160");
+}
+void LEG8_C7(){
+  Serial.println("#25 P2066 T160");
+}
+void LEG8_C8(){
+  Serial.println("#25 P2066 T160");
+}
+void LEG8_CA1(){
+  Serial.println("#25 P899 T160");
+}
+void LEG8_CS1(){
+  Serial.println("#25 P1833 T160");
+}
+
+
+
+void Head_Left() {
+  Serial.println("#24 P1100 T125");
+}
+void Head_Center() {
+  Serial.println("#24 P1500 T125");
+  Serial.println("#23 P1500 T125");
+}
+void Head_Right() {
+  Serial.println("#24 P1900 T125");
+}
