@@ -1,0 +1,486 @@
+void WalkL(){
+  LEG1_AA1();
+  LEG1_BA1();
+  LEG1_CA1();
+  delay(150);
+
+  LEG1_A1();
+  LEG1_B1();
+  LEG1_C1();
+
+  LEG7_AA1();
+  LEG7_BA1();
+  LEG7_CA1();
+  delay(150);
+
+  LEG1_A2();
+  LEG1_B2();
+  LEG1_C2();
+
+  LEG7_A1();
+  LEG7_B1();
+  LEG7_C1();
+
+  LEG6_AA1();
+  LEG6_BA1();
+  LEG6_CA1();
+  delay(150);
+
+  LEG1_A3();
+  LEG1_B3();
+  LEG1_C3();
+
+  LEG7_A2();
+  LEG7_B2();
+  LEG7_C2();
+
+  LEG6_A8();
+  LEG6_B8();
+  LEG6_C8();
+
+  LEG3_AA1();
+  LEG3_BA1();
+  LEG3_CA1();
+  delay(150);
+  LEG1_A4();
+  LEG1_B4();
+  LEG1_C4();
+
+  LEG7_A3();
+  LEG7_B3();
+  LEG7_C3();
+
+  LEG6_A7();
+  LEG6_B7();
+  LEG6_C7();
+
+  LEG3_A1();
+  LEG3_B1();
+  LEG3_C1();
+
+  LEG2_AA1();
+  LEG2_BA1();
+  LEG2_CA1();
+  delay(150);
+
+  LEG1_A5();
+  LEG1_B5();
+  LEG1_C5();
+
+  LEG7_A4();
+  LEG7_B4();
+  LEG7_C4();
+
+  LEG6_A6();
+  LEG6_B6();
+  LEG6_C6();
+
+  LEG3_A2();
+  LEG3_B2();
+  LEG3_C2();
+
+  LEG2_A8();
+  LEG2_B8();
+  LEG2_C8();
+
+  LEG8_AA1();
+  LEG8_BA1();
+  LEG8_CA1();
+  delay(150);
+
+  LEG1_A6();
+  LEG1_B6();
+  LEG1_C6();
+
+  LEG7_A5();
+  LEG7_B5();
+  LEG7_C5();
+
+  LEG6_A5();
+  LEG6_B5();
+  LEG6_C5();
+
+  LEG3_A3();
+  LEG3_B3();
+  LEG3_C3();
+
+  LEG2_A7();
+  LEG2_B7();
+  LEG2_C7();
+
+  LEG8_A8();
+  LEG8_B8();
+  LEG8_C8();
+
+  LEG5_AA1();
+  LEG5_BA1();
+  LEG5_CA1();
+  delay(150);
+
+  LEG1_A7();
+  LEG1_B7();
+  LEG1_C7();
+
+  LEG7_A6();
+  LEG7_B6();
+  LEG7_C6();
+  
+  LEG6_A4();
+  LEG6_B4();
+  LEG6_C4();
+
+  LEG3_A4();
+  LEG3_B4();
+  LEG3_C4();
+
+  LEG2_A6();
+  LEG2_B6();
+  LEG2_C6();
+
+  LEG8_A7();
+  LEG8_B7();
+  LEG8_C7();
+
+  LEG5_A1();
+  LEG5_B1();
+  LEG5_C1();
+
+  LEG4_AA1();
+  LEG4_BA1();
+  LEG4_CA1();
+  delay(150);
+
+  LEG1_A8();
+  LEG1_B8();
+  LEG1_C8();
+
+  LEG7_A7();
+  LEG7_B7();
+  LEG7_C7();
+  
+  LEG6_A3();
+  LEG6_B3();
+  LEG6_C3();
+
+  LEG3_A5();
+  LEG3_B5();
+  LEG3_C5();
+
+  LEG2_A5();
+  LEG2_B5();
+  LEG2_C5();
+
+  LEG8_A6();
+  LEG8_B6();
+  LEG8_C6();
+
+  LEG5_A2();
+  LEG5_B2();
+  LEG5_C2();
+
+  LEG4_A8();
+  LEG4_B8();
+  LEG4_C8();
+  delay(150);
+
+  LEG1_AA1();
+  LEG1_BA1();
+  LEG1_CA1();
+
+  LEG7_A8();
+  LEG7_B8();
+  LEG7_C8();
+  
+  LEG6_A2();
+  LEG6_B2();
+  LEG6_C2();
+
+  LEG3_A6();
+  LEG3_B6();
+  LEG3_C6();
+
+  LEG2_A4();
+  LEG2_B4();
+  LEG2_C4();
+
+  LEG8_A5();
+  LEG8_B5();
+  LEG8_C5();
+
+  LEG5_A3();
+  LEG5_B3();
+  LEG5_C3();
+
+  LEG4_A7();
+  LEG4_B7();
+  LEG4_C7();
+  delay(150);
+
+  LEG1_A1();
+  LEG1_B1();
+  LEG1_C1();
+
+  LEG7_AA1();
+  LEG7_BA1();
+  LEG7_CA1();
+  
+  LEG6_A1();
+  LEG6_B1();
+  LEG6_C1();
+
+  LEG3_A7();
+  LEG3_B7();
+  LEG3_C7();
+
+  LEG2_A3();
+  LEG2_B3();
+  LEG2_C3();
+
+  LEG8_A4();
+  LEG8_B4();
+  LEG8_C4();
+
+  LEG5_A4();
+  LEG5_B4();
+  LEG5_C4();
+
+  LEG4_A6();
+  LEG4_B6();
+  LEG4_C6();
+  delay(150);
+
+  LEG1_A2();
+  LEG1_B2();
+  LEG1_C2();
+
+  LEG7_A1();
+  LEG7_B1();
+  LEG7_C1();
+  
+  LEG6_AA1();
+  LEG6_BA1();
+  LEG6_CA1();
+
+  LEG3_A8();
+  LEG3_B8();
+  LEG3_C8();
+
+  LEG2_A2();
+  LEG2_B2();
+  LEG2_C2();
+
+  LEG8_A3();
+  LEG8_B3();
+  LEG8_C3();
+
+  LEG5_A5();
+  LEG5_B5();
+  LEG5_C5();
+
+  LEG4_A5();
+  LEG4_B5();
+  LEG4_C5();
+  delay(150);
+
+  LEG1_A3();
+  LEG1_B3();
+  LEG1_C3();
+
+  LEG7_A2();
+  LEG7_B2();
+  LEG7_C2();
+  
+  LEG6_A8();
+  LEG6_B8();
+  LEG6_C8();
+
+  LEG3_AA1();
+  LEG3_BA1();
+  LEG3_CA1();
+
+  LEG2_A1();
+  LEG2_B1();
+  LEG2_C1();
+
+  LEG8_A2();
+  LEG8_B2();
+  LEG8_C2();
+
+  LEG5_A6();
+  LEG5_B6();
+  LEG5_C6();
+
+  LEG4_A4();
+  LEG4_B4();
+  LEG4_C4();
+  delay(150);
+
+  LEG1_A4();
+  LEG1_B4();
+  LEG1_C4();
+
+  LEG7_A3();
+  LEG7_B3();
+  LEG7_C3();
+  
+  LEG6_A7();
+  LEG6_B7();
+  LEG6_C7();
+
+  LEG3_A1();
+  LEG3_B1();
+  LEG3_C1();
+
+  LEG2_AA1();
+  LEG2_BA1();
+  LEG2_CA1();
+
+  LEG8_A1();
+  LEG8_B1();
+  LEG8_C1();
+
+  LEG5_A7();
+  LEG5_B7();
+  LEG5_C7();
+
+  LEG4_A3();
+  LEG4_B3();
+  LEG4_C3();
+  delay(150);
+
+  LEG7_A4();
+  LEG7_B4();
+  LEG7_C4();
+  
+  LEG6_A6();
+  LEG6_B6();
+  LEG6_C6();
+
+  LEG3_A2();
+  LEG3_B2();
+  LEG3_C2();
+
+  LEG2_A8();
+  LEG2_B8();
+  LEG2_C8();
+
+  LEG8_AA1();
+  LEG8_BA1();
+  LEG8_CA1();
+
+  LEG5_A8();
+  LEG5_B8();
+  LEG5_C8();
+
+  LEG4_A2();
+  LEG4_B2();
+  LEG4_C2();
+  delay(150);
+  
+  LEG6_A5();
+  LEG6_B5();
+  LEG6_C5();
+
+  LEG3_A3();
+  LEG3_B3();
+  LEG3_C3();
+
+  LEG2_A7();
+  LEG2_B7();
+  LEG2_C7();
+
+  LEG8_A8();
+  LEG8_B8();
+  LEG8_C8();
+
+  LEG5_AA1();
+  LEG5_BA1();
+  LEG5_CA1();
+
+  LEG4_A1();
+  LEG4_B1();
+  LEG4_C1();
+  delay(150);
+
+  LEG6_A4();
+  LEG6_B4();
+  LEG6_C4();
+
+  LEG3_A4();
+  LEG3_B4();
+  LEG3_C4();
+
+  LEG2_A6();
+  LEG2_B6();
+  LEG2_C6();
+
+  LEG8_A7();
+  LEG8_B7();
+  LEG8_C7();
+
+  LEG5_A1();
+  LEG5_B1();
+  LEG5_C1();
+
+  LEG4_AA1();
+  LEG4_BA1();
+  LEG4_CA1();
+  delay(150);
+
+  LEG2_A5();
+  LEG2_B5();
+  LEG2_C5();
+
+  LEG8_A6();
+  LEG8_B6();
+  LEG8_C6();
+
+  LEG5_A2();
+  LEG5_B2();
+  LEG5_C2();
+
+  LEG4_A8();
+  LEG4_B8();
+  LEG4_C8();
+  delay(150);
+
+  LEG2_A4();
+  LEG2_B4();
+  LEG2_C4();
+
+  LEG8_A5();
+  LEG8_B5();
+  LEG8_C5();
+
+  LEG5_A3();
+  LEG5_B3();
+  LEG5_C3();
+
+  LEG4_A7();
+  LEG4_B7();
+  LEG4_C7();
+  delay(150);
+  
+  LEG8_A4();
+  LEG8_B4();
+  LEG8_C4();
+
+  LEG5_A4();
+  LEG5_B4();
+  LEG5_C4();
+
+  LEG4_A6();
+  LEG4_B6();
+  LEG4_C6();
+  delay(150);
+
+  LEG4_A5();
+  LEG4_B5();
+  LEG4_C5();
+  delay(150);
+
+  LEG4_A4();
+  LEG4_B4();
+  LEG4_C4();
+  delay(150);
+}
