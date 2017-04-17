@@ -1,0 +1,102 @@
+void Stand(){
+  LEG1_A4();
+  LEG1_BA1();
+  LEG1_CS1();
+
+  LEG2_A4();
+  LEG2_BA1();
+  LEG2_CS1();
+
+  LEG3_A4();
+  LEG3_BA1();
+  LEG3_CS1();
+
+  LEG4_A4();
+  LEG4_BA1();
+  LEG4_CS1();
+
+  LEG5_A4();
+  LEG5_BA1();
+  LEG5_CS1();
+
+  LEG6_A4();
+  LEG6_BA1();
+  LEG6_CS1();
+
+  LEG7_A4();
+  LEG7_BA1();
+  LEG7_CS1();
+
+  LEG8_A4();
+  LEG8_BA1();
+  LEG8_CS1();
+  delay(150);
+
+  LEG1_A4();
+  LEG1_BA1();
+  LEG1_CA1();
+
+  LEG2_A4();
+  LEG2_BA1();
+  LEG2_CA1();
+
+  LEG3_A4();
+  LEG3_BA1();
+  LEG3_CA1();
+
+  LEG4_A4();
+  LEG4_BA1();
+  LEG4_CA1();
+
+  LEG5_A4();
+  LEG5_BA1();
+  LEG5_CA1();
+
+  LEG6_A4();
+  LEG6_BA1();
+  LEG6_CA1();
+
+  LEG7_A4();
+  LEG7_BA1();
+  LEG7_CA1();
+
+  LEG8_A4();
+  LEG8_BA1();
+  LEG8_CA1();
+  delay(150);
+
+  LEG1_A4();
+  LEG1_B4();
+  LEG1_C4();
+
+  LEG2_A4();
+  LEG2_B4();
+  LEG2_C4();
+
+  LEG3_A4();
+  LEG3_B4();
+  LEG3_C4();
+
+  LEG4_A4();
+  LEG4_B4();
+  LEG4_C4();
+
+  LEG5_A4();
+  LEG5_B4();
+  LEG5_C4();
+
+  LEG6_A4();
+  LEG6_B4();
+  LEG6_C4();
+
+  LEG7_A4();
+  LEG7_B4();
+  LEG7_C4();
+
+  LEG8_A4();
+  LEG8_B4();
+  LEG8_C4();
+  delay(150);
+
+  
+}
