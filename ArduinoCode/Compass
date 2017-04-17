@@ -1,0 +1,112 @@
+void GetOrientation(){
+  for(j=0; j<10; j++){
+    if(Serial2.available()){
+        SureHeading = getHeading();
+        Serial.print("Heading: ");
+        Serial.println(SureHeading);
+        rssiDur = pulseIn(46, LOW, 200);
+        Serial.println("Rssi: ");
+        Serial.println(rssiDur);
+        getVectorLSM();
+        CompassHeading = (heading_converter.f, 2);
+        Serial.print("Compass: ");
+        Serial.println(heading_converter.f, 2); // print the heading/bearing
+
+        Theta = SureHeading - CompassHeading;
+        Serial.print("Theta: ");
+        Serial.println(Theta);
+
+        makePayload();
+        ThetaArray[j] = Theta;
+        if(Rssimin < rssiDur){
+            Rssimin = rssiDur;
+            k=j;
+}
+}
+}
+  ThetaCheck = ThetaArray[k];
+  Serial.print("Known Smallest Theta: ");
+  Serial.println(ThetaCheck);
+  delay(1000);
+}
+
+int getHeading(){
+  
+  int i = 0;
+  delay(2);
+  while(Serial2.available()){
+    bufferRead[i] = Serial2.read();
+    i++;
+  }
+  bufferRead[i] = '\0';
+  String number = bufferRead;
+  return number.toInt();
+}
+
+
+
+
+
+void makePayload(){
+#ifndef output_calibration
+  //Copy heading into payload
+  memcpy(payload, heading_converter.b, 4);
+#else
+  //Use the calibration values as the output
+  calibration_converter.i[0] = xout;
+  calibration_converter.i[1] = yout;
+  calibration_converter.i[2] = zout;
+  memcpy(payload, calibration_converter.b, 12);
+  payload_size = 12;
+#endif
+}
+
+
+/*--------------------------------------------------------------
+This the the fucntion which gathers the heading from the compass.
+----------------------------------------------------------------*/
+void getVectorLSM() {
+  float heading = -1;
+  float x,y,z;
+
+  //Read in raw ADC magnetometer values in the x,y, and z directions from 9DoF stick sensor and convert to DPS values
+  imu.readMag();
+  x = imu.calcMag(imu.mx);
+  y = imu.calcMag(imu.my);
+  z = imu.calcMag(imu.mz);
+  
+  //Adjust values by offsets
+  x -= xoff;
+  y -= yoff;
+  z -= zoff;
+  //Scale axes
+  x *= xscale;
+  y *= yscale;
+  z *= zscale;
+
+  //print out current magnetormeter readings
+#ifdef calibration_mode
+  xout = x;
+  yout = y;
+  zout = z;
+  char output[100];
+  sprintf(output, "x: %d, y: %d, z: %d", xout, yout, zout);
+  Serial.println(output);
+#endif
+
+//calculate the heading
+  if (y == 0)
+    heading = (x < 0) ? PI : 0;
+  else
+    heading = atan2(y,x);
+    
+    heading -= DECLINATION * (PI/180);
+  
+  if (heading > 2*PI) heading -= (2 * PI);
+  else if (heading < -PI) heading += (2 * PI);
+  else if (heading < 0) heading += (2 * PI);
+  
+  // Convert everything from radians to degrees:
+  heading *= (180.0 / PI);
+  heading_converter.f = heading;
+}
