@@ -1,0 +1,36 @@
+void Sweep(){
+Serial.println("#24 P1500 T500");
+delay(500);
+Serial.println("#23 P1500 T500");
+
+  voltsL = analogRead(sensorL);
+  voltsC = analogRead(sensorC);
+  voltsR = analogRead(sensorR);
+  Center = (voltsL+voltsC+voltsR)/3;
+delay(500);
+
+Serial.println("#24 P2000 T500");
+delay(500);
+Serial.println("#23 P1500 T500");
+
+
+  voltsL = analogRead(sensorL);
+  voltsC = analogRead(sensorC);
+  voltsR = analogRead(sensorR);
+  Right = (voltsL+voltsC+voltsR)/3;
+
+Serial.println("#24 P1000 T500");
+delay(500);
+Serial.println("#23 P1500 T500");
+delay(500);
+
+
+  voltsL = analogRead(sensorL);
+  voltsC = analogRead(sensorC);
+  voltsR = analogRead(sensorR);
+  Left = (voltsL+voltsC+voltsR)/3;
+  
+Serial.println("#24 P1500 T500");
+Serial.println("#23 P1500 T500");
+delay(500);
+}
