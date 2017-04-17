@@ -1,0 +1,124 @@
+#include <SoftwareSerial.h>
+include <SparkFunLSM9DS1.h>
+
+
+// SDO_XM and SDO_G are both pulled high, so our addresses are:
+define LSM9DS1_M  0x1E // Would be 0x1C if SDO_M is LOW
+define LSM9DS1_AG  0x6B // Would be 0x6A if SDO_AG is LOW
+define DECLINATION 8.58  //Declination (degrees) in Boulder, CO.
+
+#define sensorL  A0
+#define sensorC  A1
+#define sensorR  A2
+//Axis offsets for magnetometer
+float xoff = 0.27;
+float yoff = -0.20;
+float zoff = 0;   
+
+//Axis scales for magnetometer
+float xscale = .86;
+float yscale = 1.2;
+float zscale = 1;
+
+#ifdef output_calibration
+union{
+  int i[3];
+  uint8_t b[6];
+}calibration_converter;
+#endif
+
+//Current readings from magnetometer axis
+int xout, yout, zout; 
+
+int ThetaArray[10];
+int RssiArray[10];
+int HeadingArray[10];
+
+int j = 0;
+int k = 0;
+int kmax = 1000;
+
+int SureHeading = 0;
+int CompassHeading;
+
+float Theta;
+//-----------------------END CALIBRATION FOR MAGNETOMETER------------------
+
+
+int compassAddress = 0x42 >> 1;
+
+LSM9DS1 imu;
+
+uint8_t payload[12];
+int payload_size = 4;
+
+union{
+  float f;
+  uint8_t b[4];
+}heading_converter;
+
+float rssiDur = 0.0;
+char bufferRead[20];;
+float currentHeading = 0.0;  // Variable to hold Heading in degrees
+
+int Center = 0;
+int Right = 0;
+int Left = 0;
+
+int voltsR = 0;
+int voltsC = 0;
+int voltsL = 0;
+
+int ThetaCheck = 0;
+int Rssimin;
+
+void setup() {
+  Serial.begin(9600); // Set baudrate for serial communicatio
+  //Serial1.begin(57600);
+  imu.settings.device.commInterface = IMU_MODE_I2C; //Set mode to I2C
+  imu.settings.device.mAddress = LSM9DS1_M; //Set mag address to 0x1E
+  imu.settings.device.agAddress = LSM9DS1_AG; //Set ag address to 0x6B
+
+  imu.begin();
+  if (!imu.begin())
+  {
+    Serial.println("Failed to communicate with LSM9DS1.");
+    Serial.println("Double-check wiring.");
+    Serial.println("Default settings in this sketch will " \
+                  "work for an out of the box LSM9DS1 " \
+                  "Breakout, but may need to be modified " \
+                  "if the board jumpers are.");
+    while (1)
+      ;
+  }
+  Stand();
+}
+// This is the main program, this is what the robot do
+void loop(){
+   GetOrientation();
+   Sweep();
+   delay(100);
+    if (Center < 200 && Right < 200 && Left <200 ) {
+      WalkFS();
+      while (Center < 200 && voltsL < 200 && voltsR < 200){
+        WalkFC();
+        voltsL = analogRead(sensorL);       // reads the value of the sharp sensor
+        voltsC = analogRead(sensorC);
+        voltsR = analogRead(sensorR);
+        Center = (voltsL+voltsC+voltsR)/3;
+      }
+      WalkFE();
+      delay (100);
+    }
+    else
+      if (Right < 200) {
+      WalkR(); 
+      delay (100);
+    }
+    else
+      if (Left < 200) {
+        WalkL();  
+        delay (100);
+      } 
+
+}
